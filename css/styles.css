@@ -63,3 +63,44 @@
     padding: 3rem;
     border: 2px solid var(--white);
 }
+
+.about{
+    width: 80%;
+    min-height: 500px;
+    margin: auto;
+    margin-top: 200px;
+    position: relative;
+}
+
+.about img{
+    width: 1000px;
+}
+
+.about div{
+    width: 500px;
+    min-height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 125px;
+    padding-left: 125px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.about div h2{
+    font-size: 4rem;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+.about div p{
+    width: 90%;
+    color: var(--dark-grey); 
+}
