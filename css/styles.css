@@ -104,3 +104,211 @@
     width: 90%;
     color: var(--dark-grey); 
 }
+
+.gallery{
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.gallery .galleryTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery .galleryTitle h2{
+    font-size: 4rem;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.gallery .galleryTitle span{
+    width: 170px;
+    height: 45px;
+    border: 2px solid var(--black);
+    background-color: var(--white);
+    font-weight: 400;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .imagesContainer{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.70rem;
+}
+
+.gallery .imagesContainer .deepEarth{
+    width: 350px;
+    height: 550px;
+    background-image: url("../images/desktop/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.gallery .imagesContainer .deepEarth p{
+    width: 25%;
+    color: var(--white);
+    margin: 0px 0px 50px 50px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.gallery .imagesContainer .nightArcade{
+    width: 350px;
+    height: 550px;
+    background-image: url("../images/desktop/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.gallery .imagesContainer .nightArcade p{
+    width: 25%;
+    color: var(--white);
+    margin: 0px 0px 50px 50px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.gallery .imagesContainer .soccerTeam{
+    width: 350px;
+    height: 550px;
+    background-image: url("../images/desktop/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.gallery .imagesContainer .soccerTeam p{
+    width: 75%;
+    color: var(--white);
+    margin: 0px 0px 50px 50px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.gallery .imagesContainer .theGrid{
+    width: 350px;
+    height: 550px;
+    background-image: url("../images/desktop/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.gallery .imagesContainer .theGrid p{
+    width: 25%;
+    color: var(--white);
+    margin: 0px 0px 50px 50px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.gallery .imagesContainer .fromUpAbove{
+    width: 350px;
+    height: 550px;
+    background-image: url("../images/desktop/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.gallery .imagesContainer .fromUpAbove p{
+    width: 75%;
+    color: var(--white);
+    margin: 0px 0px 50px 50px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.gallery .imagesContainer .pocketBoarelis{
+    width: 350px;
+    height: 550px;
+    background-image: url("../images//desktop/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.gallery .imagesContainer .pocketBoarelis p{
+    width: 25%;
+    color: var(--white);
+    margin: 0px 0px 50px 50px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.gallery .imagesContainer .theCuriosity{
+    width: 350px;
+    height: 550px;
+    background-image: url("../images/desktop/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.gallery .imagesContainer .theCuriosity p{
+    width: 25%;
+    color: var(--white);
+    margin: 0px 0px 50px 50px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.gallery .imagesContainer .makeItFisheye{
+    width: 350px;
+    height: 550px;
+    background-image: url("../images/desktop/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.gallery .imagesContainer .makeItFisheye p{
+    width: 75%;
+    color: var(--white);
+    margin: 0px 0px 50px 50px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+
