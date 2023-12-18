@@ -45,6 +45,13 @@
 .header .navContainer nav ul a{
     text-decoration: none;
     color: var(--white);
+    padding-bottom: 10px;
+    transition: all 250ms;
+}
+
+.header .navContainer nav ul a:hover{
+    border-bottom: 1px solid var(--white);
+    transition: all 250ms;
 }
 
 .header .titleContainer{
@@ -135,6 +142,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 250ms;
+}
+
+.gallery .galleryTitle span:hover{
+    background-color: var(--black);
+    color: var(--white);
+    transition: all 250ms;
+    cursor: pointer;
 }
 
 .gallery .imagesContainer{
@@ -154,6 +169,13 @@
     display: flex;
     justify-content: start;
     align-items: flex-end;
+    transition: all 250ms;
+}
+
+.gallery .imagesContainer .deepEarth:hover{
+    filter: opacity(75%);
+    transition: all 250ms;
+    cursor: pointer;
 }
 
 .gallery .imagesContainer .deepEarth p{
@@ -175,6 +197,13 @@
     display: flex;
     justify-content: start;
     align-items: flex-end;
+    transition: all 250ms;
+}
+
+.gallery .imagesContainer .nightArcade:hover{
+    filter: opacity(75%);
+    transition: all 250ms;
+    cursor: pointer;
 }
 
 .gallery .imagesContainer .nightArcade p{
@@ -196,6 +225,13 @@
     display: flex;
     justify-content: start;
     align-items: flex-end;
+    transition: all 250ms;
+}
+
+.gallery .imagesContainer .soccerTeam:hover{
+    filter: opacity(75%);
+    transition: all 250ms;
+    cursor: pointer;
 }
 
 .gallery .imagesContainer .soccerTeam p{
@@ -217,6 +253,13 @@
     display: flex;
     justify-content: start;
     align-items: flex-end;
+    transition: all 250ms;
+}
+
+.gallery .imagesContainer .theGrid:hover{
+    filter: opacity(75%);
+    transition: all 250ms;
+    cursor: pointer;
 }
 
 .gallery .imagesContainer .theGrid p{
@@ -238,6 +281,13 @@
     display: flex;
     justify-content: start;
     align-items: flex-end;
+    transition: all 250ms;
+}
+
+.gallery .imagesContainer .fromUpAbove:hover{
+    filter: opacity(75%);
+    transition: all 250ms;
+    cursor: pointer;
 }
 
 .gallery .imagesContainer .fromUpAbove p{
@@ -259,6 +309,13 @@
     display: flex;
     justify-content: start;
     align-items: flex-end;
+    transition: all 250ms;
+}
+
+.gallery .imagesContainer .pocketBoarelis:hover{
+    filter: opacity(75%);
+    transition: all 250ms;
+    cursor: pointer;
 }
 
 .gallery .imagesContainer .pocketBoarelis p{
@@ -280,6 +337,13 @@
     display: flex;
     justify-content: start;
     align-items: flex-end;
+    transition: all 250ms;
+}
+
+.gallery .imagesContainer .theCuriosity:hover{
+    filter: opacity(75%);
+    transition: all 250ms;
+    cursor: pointer;
 }
 
 .gallery .imagesContainer .theCuriosity p{
@@ -301,6 +365,13 @@
     display: flex;
     justify-content: start;
     align-items: flex-end;
+    transition: all 250ms;
+}
+
+.gallery .imagesContainer .makeItFisheye:hover{
+    filter: opacity(75%);
+    transition: all 250ms;
+    cursor: pointer;
 }
 
 .gallery .imagesContainer .makeItFisheye p{
@@ -361,6 +432,13 @@
 .footer .footerNav nav ul li a{
     color: var(--white);
     text-decoration: none;
+    padding-bottom: 10px;
+    transition: all 250ms;
+}
+
+.footer .footerNav nav ul li a:hover{
+    border-bottom: 1px solid var(--white);
+    transition: all 250ms;
 }
 
 .footer .footerNav p{
