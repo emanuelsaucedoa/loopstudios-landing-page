@@ -20,7 +20,7 @@
 
 .header{
     width: 100vw;
-    height: 900px;
+    height: 750px;
     background-image: url('../images/desktop/image-hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 }
 
 .header .navContainer{
-    width: 80%;
+    width: 1300px;
     margin: auto;
     height: 200px;
     display: flex;
@@ -39,7 +39,7 @@
 .header .navContainer nav ul{
     display: flex;
     list-style-type: none;
-    gap: 65px;
+    gap: 50px;
 }
 
 .header .navContainer nav ul a{
@@ -55,7 +55,7 @@
 }
 
 .header .titleContainer{
-    width: 80%;
+    width: 1300px;
     height: 300px;
     margin: auto;
     margin-top: 100px;
@@ -72,7 +72,7 @@
 }
 
 .about{
-    width: 80%;
+    width: 1300px;
     min-height: 500px;
     margin: auto;
     margin-top: 200px;
@@ -113,7 +113,7 @@
 }
 
 .gallery{
-    width: 80%;
+    width: 1300px;
     margin: auto;
     margin-top: 200px;
 }
@@ -156,12 +156,12 @@
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    gap: 2.70rem;
+    gap: 32px;
 }
 
 .gallery .imagesContainer .deepEarth{
-    width: 350px;
-    height: 550px;
+    width: 300px;
+    height: 500px;
     background-image: url("../images/desktop/image-deep-earth.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -184,12 +184,12 @@
     margin: 0px 0px 50px 50px;
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .gallery .imagesContainer .nightArcade{
-    width: 350px;
-    height: 550px;
+    width: 300px;
+    height: 500px;
     background-image: url("../images/desktop/image-night-arcade.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -212,12 +212,12 @@
     margin: 0px 0px 50px 50px;
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .gallery .imagesContainer .soccerTeam{
-    width: 350px;
-    height: 550px;
+    width: 300px;
+    height: 500px;
     background-image: url("../images/desktop/image-soccer-team.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -240,12 +240,12 @@
     margin: 0px 0px 50px 50px;
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .gallery .imagesContainer .theGrid{
-    width: 350px;
-    height: 550px;
+    width: 300px;
+    height: 500px;
     background-image: url("../images/desktop/image-grid.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -268,12 +268,12 @@
     margin: 0px 0px 50px 50px;
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .gallery .imagesContainer .fromUpAbove{
-    width: 350px;
-    height: 550px;
+    width: 300px;
+    height: 500px;
     background-image: url("../images/desktop/image-from-above.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -296,12 +296,12 @@
     margin: 0px 0px 50px 50px;
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .gallery .imagesContainer .pocketBoarelis{
-    width: 350px;
-    height: 550px;
+    width: 300px;
+    height: 500px;
     background-image: url("../images//desktop/image-pocket-borealis.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -324,12 +324,12 @@
     margin: 0px 0px 50px 50px;
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .gallery .imagesContainer .theCuriosity{
-    width: 350px;
-    height: 550px;
+    width: 300px;
+    height: 500px;
     background-image: url("../images/desktop/image-curiosity.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -352,12 +352,12 @@
     margin: 0px 0px 50px 50px;
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .gallery .imagesContainer .makeItFisheye{
-    width: 350px;
-    height: 550px;
+    width: 300px;
+    height: 500px;
     background-image: url("../images/desktop/image-fisheye.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -380,7 +380,7 @@
     margin: 0px 0px 50px 50px;
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .footer{
@@ -395,7 +395,7 @@
 }
 
 .footer .socialMedia{
-    width: 80%;
+    width: 1300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -410,7 +410,7 @@
 }
 
 .footer .footerNav{
-    width: 80%;
+    width: 1300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -444,4 +444,273 @@
 .footer .footerNav p{
     color: var(--dark-grey);
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1440px) {
+
+    .header .navContainer{
+        width: 1000px;
+    }
+
+    .header .titleContainer{
+        width: 1000px;
+    }
+
+    .about{
+        width: 1000px;
+    }
+
+    .about img{
+        width: 700px;
+    }
+    
+    .about div{
+        bottom: 20px;
+        right: 0px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 0px;
+    }
+
+    .gallery{
+        width: 1000px;
+    }
+
+    .gallery .imagesContainer{
+        gap: 32px;
+    }
+
+    .gallery .imagesContainer .deepEarth{
+        width: 225px;
+        height: 400px; 
+    }
+
+    .gallery .imagesContainer .deepEarth p{
+        font-size: 2rem;
+    }
+
+    .gallery .imagesContainer .nightArcade{
+        width: 225px;
+        height: 400px; 
+    }
+
+    .gallery .imagesContainer .nightArcade p{
+        font-size: 2rem;
+    }
+
+    .gallery .imagesContainer .soccerTeam{
+        width: 225px;
+        height: 400px; 
+    }
+
+    .gallery .imagesContainer .soccerTeam p{
+        font-size: 2rem;
+    }
+
+    .gallery .imagesContainer .theGrid{
+        width: 225px;
+        height: 400px; 
+    }
+
+    .gallery .imagesContainer .theGrid p{
+        font-size: 2rem;
+    }
+
+    .gallery .imagesContainer .fromUpAbove{
+        width: 225px;
+        height: 400px; 
+    }
+
+    .gallery .imagesContainer .fromUpAbove p{
+        font-size: 2rem;
+    }
+
+    .gallery .imagesContainer .pocketBoarelis{
+        width: 225px;
+        height: 400px; 
+    }
+
+    .gallery .imagesContainer .pocketBoarelis p{
+        font-size: 2rem;
+    }
+
+    .gallery .imagesContainer .theCuriosity{
+        width: 225px;
+        height: 400px; 
+    }
+
+    .gallery .imagesContainer .theCuriosity p{
+        font-size: 2rem;
+    }
+
+    .gallery .imagesContainer .makeItFisheye{
+        width: 225px;
+        height: 400px; 
+    }
+
+    .gallery .imagesContainer .makeItFisheye p{
+        font-size: 2rem;
+    }
+
+    .footer .socialMedia{
+        width: 1000px;
+    }
+    
+    .footer .footerNav{
+        width: 1000px;
+    }
+  
+}
+
+@media only screen and (max-width: 1100px){
+
+    .header .navContainer{
+        width: 700px;
+    }
+
+    .header .navContainer nav ul{
+        gap: 30px;
+    }
+
+    .header .titleContainer{
+        width: 700px;
+    }
+
+    .header .titleContainer h1{
+        width: 600px;
+        font-size: 5rem;
+        color: var(--white);
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        padding: 3rem;
+        border: 2px solid var(--white);
+    }
+
+    .about{
+        width: 700px;
+    }
+
+    .about img{
+        width: 500px;
+    }
+    
+    .about div{
+        bottom: 20px;
+        right: 0px;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+    }
+
+    .gallery{
+        width: 700px;
+    }
+
+    .gallery .imagesContainer{
+        gap: 12px;
+    }
+
+    .footer .socialMedia{
+        width: 700px;
+    }
+    
+    .footer .footerNav{
+        width: 700px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .header .navContainer{
+        width: 500px;
+    }
+
+    .header .navContainer img{
+        display: none;
+    }
+
+    .header .titleContainer{
+        width: 500px;
+    }
+
+    .header .titleContainer h1{
+        width: 400px;
+        font-size: 3rem;
+    }
+
+    .about{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about img{
+        width: 475px;
+    }
+    
+    .about div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:initial;
+        margin-top: 25px;
+    }
+
+    .about div h2{
+        font-size: 3rem;
+    }
+
+    .about div p{
+        align-self: flex-start;
+    }
+
+    .gallery{
+        width: 500px;
+    }
+
+    .gallery .galleryTitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .gallery .galleryTitle h2{
+        margin-bottom: 25px;
+        font-size: 3rem;
+    }
+
+    .gallery .galleryTitle span{
+        align-self: center;
+    }
+
+    .gallery .imagesContainer{
+        gap: 45px;
+    }
+
+    .footer .socialMedia{
+        width: 500px;
+    }
+    
+    .footer .footerNav{
+        width: 500px;
+    }
+
+    .footer .footerNav nav{
+        display: none;
+    }
+  
+}
+
+@media only screen and (max-width: 525px){
+
+}
+
+
 
