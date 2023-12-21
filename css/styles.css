@@ -21,7 +21,6 @@
 /* Drop-down menu */
 
 .menu{
-    width: 100vw;
     height: 750px;
     background-color: var(--black);
     display: none;
@@ -777,31 +776,50 @@
 @media only screen and (max-width: 525px){
 
     .header{
-        width: 100vw;
         background-image: url('../images/mobile/image-hero.jpg');
     }
 
     .header .navContainer{
-        width: 350px;
+        width: 300px;
+    }
+
+    .header .titleContainer{
+        width: 300px;
     }
 
     .header .titleContainer h1{
-        width: 250px;
+        width: 200px;
         margin: auto;
-        font-size: 2.5rem;
+        font-size: 2.25rem;
+    }
+
+    .about{
+        width: 300px;
     }
 
     .about img{
-        width: 350px;
+        width: 300px;
+    }
+
+    .about div{
+        width: 300px;
     }
 
     .about div h2{
-        font-size: 2.5rem
+        font-size: 2.5rem;
     }
 
     .about div p{
-        width: 75%;
+        width: 300px;
         align-self: center;
+    }
+
+    .gallery{
+        width: 300px;
+    }
+
+    .gallery .galleryTitle h2{
+        text-align: center;
     }
 
     .gallery .imagesContainer{
@@ -809,8 +827,8 @@
     }
 
     .gallery .imagesContainer .deepEarth{
-        width: 400px;
-        height: 150px;
+        width: 300px;
+        height: 120px;
         background-image: url("../images/mobile/image-deep-earth.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -831,8 +849,8 @@
     }
     
     .gallery .imagesContainer .nightArcade{
-        width: 400px;
-        height: 150px;
+        width: 300px;
+        height: 120px;
         background-image: url("../images/mobile/image-night-arcade.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -852,8 +870,8 @@
     }
     
     .gallery .imagesContainer .soccerTeam{
-        width: 400px;
-        height: 150px;
+        width: 300px;
+        height: 120px;
         background-image: url("../images/mobile/image-soccer-team.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -873,8 +891,8 @@
     }
     
     .gallery .imagesContainer .theGrid{
-        width: 400px;
-        height: 150px;
+        width: 300px;
+        height: 120px;
         background-image: url("../images/mobile/image-grid.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -890,12 +908,12 @@
         color: var(--white);
         font-weight: 300;
         font-family: 'Josefin Sans', sans-serif;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     
     .gallery .imagesContainer .fromUpAbove{
-        width: 400px;
-        height: 150px;
+        width: 300px;
+        height: 120px;
         background-image: url("../images/mobile/image-from-above.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -915,8 +933,8 @@
     }
     
     .gallery .imagesContainer .pocketBoarelis{
-        width: 400px;
-        height: 150px;
+        width: 300px;
+        height: 120px;
         background-image: url("../images/mobile/image-pocket-borealis.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -936,8 +954,8 @@
     }
     
     .gallery .imagesContainer .theCuriosity{
-        width: 400px;
-        height: 150px;
+        width: 300px;
+        height: 120px;
         background-image: url("../images/mobile/image-curiosity.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -957,8 +975,8 @@
     }
     
     .gallery .imagesContainer .makeItFisheye{
-        width: 400px;
-        height: 150px;
+        width: 300px;
+        height: 120px;
         background-image: url("../images/mobile/image-fisheye.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -977,14 +995,18 @@
         font-size: 1.5rem;
     }
 
+    .footer{
+        width: 100%;
+    }
+
     .footer .socialMedia{
-        width: 350px;
+        width: 300px;
         flex-direction: column;
         gap: 40px;
     }
     
     .footer .footerNav{
-        width: 350px;
+        width: 300px;
         justify-content: center;
     }
 }
