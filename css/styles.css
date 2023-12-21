@@ -18,6 +18,57 @@
     font-size: 15px;
 }
 
+/* Drop-down menu */
+
+.menu{
+    width: 100vw;
+    height: 750px;
+    background-color: var(--black);
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 50px 25px 50px 25px;
+}
+
+.menu div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu div .cancelButton{
+    width: 40px;
+}
+
+.menu div .cancelButton:hover{
+    cursor: pointer;
+}
+
+.menu nav{
+    align-self: flex-start;
+    margin-top: 250px;
+    margin-left: -40px;
+}
+
+.menu nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.menu nav ul a{
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.75rem;
+}
+
+/* Drop-down menu */
+
 .header{
     width: 100vw;
     height: 750px;
@@ -34,6 +85,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header .navContainer .burgerButton{
+    display: none;
 }
 
 .header .navContainer nav ul{
@@ -629,8 +684,17 @@
         width: 500px;
     }
 
-    .header .navContainer img{
+    .header .navContainer nav{
         display: none;
+    }
+
+    .header .navContainer .burgerButton{
+        width: 40px;
+        display: block;
+    }
+
+    .header .navContainer .burgerButton:hover{
+        cursor: pointer;
     }
 
     .header .titleContainer{
@@ -664,10 +728,12 @@
 
     .about div h2{
         font-size: 3rem;
+        text-align: center;
     }
 
     .about div p{
         align-self: flex-start;
+        text-align: center;
     }
 
     .gallery{
@@ -710,6 +776,217 @@
 
 @media only screen and (max-width: 525px){
 
+    .header{
+        width: 100vw;
+        background-image: url('../images/mobile/image-hero.jpg');
+    }
+
+    .header .navContainer{
+        width: 350px;
+    }
+
+    .header .titleContainer h1{
+        width: 250px;
+        margin: auto;
+        font-size: 2.5rem;
+    }
+
+    .about img{
+        width: 350px;
+    }
+
+    .about div h2{
+        font-size: 2.5rem
+    }
+
+    .about div p{
+        width: 75%;
+        align-self: center;
+    }
+
+    .gallery .imagesContainer{
+        justify-content: center;
+    }
+
+    .gallery .imagesContainer .deepEarth{
+        width: 400px;
+        height: 150px;
+        background-image: url("../images/mobile/image-deep-earth.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        transition: all 250ms;
+    }
+    
+    .gallery .imagesContainer .deepEarth p{
+        width: 25%;
+        color: var(--white);
+        /* margin: 0px 0px 50px 50px; */
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    .gallery .imagesContainer .nightArcade{
+        width: 400px;
+        height: 150px;
+        background-image: url("../images/mobile/image-night-arcade.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        transition: all 250ms;
+    }
+    
+    .gallery .imagesContainer .nightArcade p{
+        width: 25%;
+        color: var(--white);
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    .gallery .imagesContainer .soccerTeam{
+        width: 400px;
+        height: 150px;
+        background-image: url("../images/mobile/image-soccer-team.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        transition: all 250ms;
+    }
+    
+    .gallery .imagesContainer .soccerTeam p{
+        width: 75%;
+        color: var(--white);
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    .gallery .imagesContainer .theGrid{
+        width: 400px;
+        height: 150px;
+        background-image: url("../images/mobile/image-grid.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        transition: all 250ms;
+    }
+    
+    .gallery .imagesContainer .theGrid p{
+        width: 25%;
+        color: var(--white);
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2.5rem;
+    }
+    
+    .gallery .imagesContainer .fromUpAbove{
+        width: 400px;
+        height: 150px;
+        background-image: url("../images/mobile/image-from-above.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        transition: all 250ms;
+    }
+    
+    .gallery .imagesContainer .fromUpAbove p{
+        width: 75%;
+        color: var(--white);
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    .gallery .imagesContainer .pocketBoarelis{
+        width: 400px;
+        height: 150px;
+        background-image: url("../images/mobile/image-pocket-borealis.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        transition: all 250ms;
+    }
+    
+    .gallery .imagesContainer .pocketBoarelis p{
+        width: 25%;
+        color: var(--white);
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    .gallery .imagesContainer .theCuriosity{
+        width: 400px;
+        height: 150px;
+        background-image: url("../images/mobile/image-curiosity.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        transition: all 250ms;
+    }
+    
+    .gallery .imagesContainer .theCuriosity p{
+        width: 25%;
+        color: var(--white);
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    .gallery .imagesContainer .makeItFisheye{
+        width: 400px;
+        height: 150px;
+        background-image: url("../images/mobile/image-fisheye.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        transition: all 250ms;
+    }
+    
+    .gallery .imagesContainer .makeItFisheye p{
+        width: 75%;
+        color: var(--white);
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .footer .socialMedia{
+        width: 350px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .footer .footerNav{
+        width: 350px;
+        justify-content: center;
+    }
 }
 
 
